@@ -125,7 +125,9 @@ section.grandSlam {
 .tourney {
   background-color: rgb(255, 253, 250);
   padding: 10px;
-  box-shadow: blue;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 9px rgb(0, 0, 0);
 }
 
 h2 {
