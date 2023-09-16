@@ -96,6 +96,10 @@ ul.menu-list {
   text-transform: uppercase;
 }
 
+.menu-list a:hover {
+  background-color: rgb(45, 3, 3);
+}
+
 .menu-toggle {
   display: none;
 }
@@ -142,10 +146,16 @@ ul.menu-list {
 /* screen tablet  */
 @media screen and (max-width: 768px) {
   .menu {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    left: 45px;
+    transform: translateX(-400%);
   }
 
   .menu-toggle {
+    justify-self: start;
     order: -2;
     flex: 0.2;
     display: flex;
@@ -154,6 +164,10 @@ ul.menu-list {
     align-items: center;
     height: 20px;
     cursor: pointer;
+  }
+
+  .slide {
+    transform: translateX(0);
   }
 }
 
