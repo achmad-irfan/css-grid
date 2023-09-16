@@ -150,12 +150,11 @@ ul.menu-list {
     flex-direction: column;
     position: absolute;
     top: 40px;
-    left: 45px;
+    left: 140px;
     transform: translateX(-400%);
   }
 
   .menu-toggle {
-    justify-self: start;
     order: -2;
     flex: 0.2;
     display: flex;
