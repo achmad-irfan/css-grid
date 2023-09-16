@@ -69,7 +69,7 @@ body {
 /* Navigation */
 .menu {
   display: grid;
-  grid-template-columns: 1.2fr 3fr auto;
+  grid-template-columns: 1.2fr 3fr;
   align-items: center;
 }
 
@@ -141,6 +141,10 @@ ul.menu-list {
 
 /* screen tablet  */
 @media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
   .menu-toggle {
     order: -2;
     flex: 0.2;
@@ -150,20 +154,6 @@ ul.menu-list {
     align-items: center;
     height: 20px;
     cursor: pointer;
-    border-radius: 25px;
-  }
-
-  .menu-list {
-    grid-template-columns: 1fr;
-  }
-
-  .feature .gs {
-    font-size: 1.5em;
-    background-color: black;
-  }
-
-  .slide {
-    transform: translateX(0);
   }
 }
 
