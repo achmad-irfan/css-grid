@@ -130,6 +130,23 @@ section.grandSlam {
   box-shadow: 1px 1px 9px rgb(0, 0, 0);
 }
 
+.australian {
+  background-image: url(img/djokovic.png);
+}
+
+.french {
+  background-image: url(img/nadal.png);
+}
+
+.wimbley {
+  background-image: url(img/federer.jpg);
+  background-size: cover;
+}
+
+.uso {
+  background-image: url(img/murray.png);
+}
+
 h2 {
   margin-bottom: 20px;
   font-size: 1.5em;
